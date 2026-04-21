@@ -1,0 +1,7 @@
+kafka-python
+redis
+xgboost
+scikit-learn
+pandas
+numpy
+joblib
