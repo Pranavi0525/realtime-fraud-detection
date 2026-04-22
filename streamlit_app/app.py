@@ -230,7 +230,7 @@ html, body, [data-testid="stAppViewContainer"] {
 """, unsafe_allow_html=True)
 
 # ── Model loading ─────────────────────────────────────────────────────────────
-MODELS_DIR = Path("models")
+MODELS_DIR = Path(__file__).parent / "models"
 
 @st.cache_resource
 def load_model():
