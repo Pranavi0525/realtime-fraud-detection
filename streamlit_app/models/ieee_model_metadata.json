@@ -1,0 +1,49 @@
+{
+  "model_type": "XGBoost \u2014 IEEE-CIS Transaction Fraud",
+  "dataset": "IEEE-CIS Fraud Detection (Kaggle)",
+  "auc_roc": 0.9494,
+  "pr_auc": 0.692,
+  "optimal_threshold": 0.81,
+  "top_features": [
+    {
+      "feature": "V70",
+      "importance": 0.1404675394296646
+    },
+    {
+      "feature": "C8",
+      "importance": 0.07841695845127106
+    },
+    {
+      "feature": "V91",
+      "importance": 0.07311524450778961
+    },
+    {
+      "feature": "V97",
+      "importance": 0.05270867794752121
+    },
+    {
+      "feature": "C4",
+      "importance": 0.04150989279150963
+    },
+    {
+      "feature": "C14",
+      "importance": 0.03798593953251839
+    },
+    {
+      "feature": "V94",
+      "importance": 0.028667453676462173
+    },
+    {
+      "feature": "M4",
+      "importance": 0.019568204879760742
+    },
+    {
+      "feature": "V95",
+      "importance": 0.01947646774351597
+    },
+    {
+      "feature": "addr2",
+      "importance": 0.0189116969704628
+    }
+  ]
+}
